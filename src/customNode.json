@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Input",
+    "details": "Takes the input from the user",
+    "type": "inputNode",
+    "icon": "vscode-icons:file-type-text",
+    "category": "Text"
+  },
+  {
+    "name": "Output",
+    "details": "Display the output to the user",
+    "type": "outputNode",
+    "icon": "vscode-icons:file-type-text",
+    "category": "Text"
+  },
+  {
+    "name": "JSON",
+    "details": "Present the Data in JSON format",
+    "type": "jsonNode",
+    "icon": "vscode-icons:file-type-json",
+    "category": "Data"
+  },
+  {
+    "name": "UserForm",
+    "details": "Create a Form for User Input",
+    "type": "formNode",
+    "icon": "clarity:form-line",
+    "category": "Form"
+  },
+  {
+    "name": "Gmail",
+    "details": "Send an Email using Gmail API",
+    "type": "gmailNode",
+    "icon": "logos:google-gmail",
+    "category": "Email"
+  },
+  {
+    "name": "Outlook",
+    "details": "Send an Email using Outlook API",
+    "type": "outlookNode",
+    "icon": "vscode-icons:file-type-outlook",
+    "category": "Email"
+  },
+  {
+    "name": "SQL",
+    "details": "Connect to SQL Database",
+    "type": "sqlNode",
+    "icon": "vscode-icons:file-type-sql",
+    "category": "Database"
+  }, 
+  {
+    "name": "VectorDB",
+    "details": "Connect to Vector Database",
+    "type": "vectorDb",
+    "icon": "vscode-icons:file-type-sql",
+    "category": "Database"
+  },
+  {
+    "name": "Path",
+    "details": "Conditional Node",
+    "type": "pathNode",
+    "icon": "solar:branching-paths-down-line-duotone",
+    "category": "Control"
+  },
+  {
+    "name": "GraphQl",
+    "details": "Connect to GraphQl API",
+    "type": "graphQlNode",
+    "icon": "vscode-icons:file-type-graphql",
+    "category": "api"
+  },
+  {
+    "name": "MongoDB",
+    "details": "Connect to MongoDB",
+    "type": "mongoDbNode",
+    "icon": "vscode-icons:file-type-mongo",
+    "category": "Database"
+  }
+
+]

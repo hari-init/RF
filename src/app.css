@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, select {
+  font-size: 17px;
+    font-weight: 400;
+}
+
+
+/* button {
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+} */
+
+.dndflow {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+
+.dndflow .reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.dndflow .selectall {
+  margin-top: 10px;
+}
+
+
+.react-flow__handle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #555555;
+}
+.react-flow__handle:hover {
+  background-color: #555555;
+  border: 8px solid #555555;
+}
+
+.react-flow__handle-left {
+  left: -6px; /* Adjust to center the handle */
+}
+
+.react-flow__handle-right {
+  right: -6px; /* Adjust to center the handle */
+}
+
+.react-flow__handle-top {
+  top: -6px; /* Adjust to center the handle */
+}
+
+.react-flow__handle-bottom {
+  bottom: -6px; /* Adjust to center the handle */
+}
+
+
+pre {
+  display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    max-height: 400px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    box-sizing: border-box;
+}

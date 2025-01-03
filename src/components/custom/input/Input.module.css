@@ -1,0 +1,39 @@
+.inputNode {
+  min-height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  /* border: unset; */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input:focus {
+  border: 1px solid #AF47D2;
+  outline: none;
+}
+.input:hover {
+  border: 1px solid #AF47D2;
+}
+
+  .inputBody {
+    padding: 16px;
+  }
+
+
+  .inputNode label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: 400;
+  }
+
+  .input::placeholder {
+    color: #ccc;
+    font-size: 16px;
+  }

@@ -1,0 +1,25 @@
+.contextMenu {
+    background-color: #fff;
+    /* border-style: solid; */
+    box-shadow: 10px 19px 20px rgba(0, 0, 0, 10%);
+    position: absolute;
+    z-index: 10;
+    border: 1px solid #ccc;
+    /* border-radius: 8px; */
+    width: 140px;
+    padding: 5px;
+  }
+  
+  .contextMenu button {
+    background-color: #fff;
+    display: block;
+    padding: 0.5em;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+  }
+  
+    /* .contextMenu button:last-child {
+      bor
+    } */

@@ -1,0 +1,32 @@
+
+
+.viewNode {
+    min-height: 100px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+  }
+  
+    .view {
+      width: 100%;
+      padding: 8px;
+      border: unset;
+      border-bottom: 2px solid #ccc;
+    }
+  
+    .viewBody {
+      padding: 16px;
+    }
+  
+  
+    .viewNode label {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-weight: 400;
+    }
+  
+    .view::placeholder {
+      color: #ccc;
+      font-size: 16px;
+    }
